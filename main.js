@@ -11,7 +11,7 @@
             var formData = new FormData($("#profileUp")[0]);
 
             $.ajax({
-                url: "adobe.php",
+                url: "http://double-reed-anthem.000webhostapp.com/adobe/os/adobe.php",
                 type: 'POST',
                 data: formData,
                 contentType: false,
